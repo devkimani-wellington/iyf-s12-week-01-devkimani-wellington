@@ -1,0 +1,20 @@
+# Accessibility Report - index.html
+
+## Issues Found
+1. Images without alt text
+2. Missing lang attribute on html tag
+3. Headings skipped h1 to h3
+4. Links with text "click here"
+5. Form inputs without associated labels
+
+## How I Fixed
+1. Added alt="..." to all images: e.g. alt="Portrait photo of Chacha"
+2. Added lang="en" to <html>
+3. Fixed hierarchy: h1 -> h2 -> h3, no skipping
+4. Changed "click here" to descriptive: "View my projects" and "MDN Web Docs"
+5. Added <label for="id"> for each input and linked via id attribute
+
+## Final Lighthouse Score
+Accessibility: 98/100 (tested with Chrome DevTools Lighthouse)
+WAVE: 0 errors, 2 alerts for redundant links fixed.
+  
