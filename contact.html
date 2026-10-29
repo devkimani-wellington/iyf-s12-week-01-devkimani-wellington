@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Joseph Kimani</title>
+<style>body{font-family:Arial;max-width:900px;margin:0 auto;padding:20px}nav{background:#222;padding:10px;display:flex;gap:15px}nav a{color:white;text-decoration:none;padding:5px 10px}nav a.active{background:#4CAF50;border-radius:4px}label{display:block;margin-top:10px}input,select,textarea{width:100%;padding:8px;margin-top:4px}</style></head>
+<body>
+<nav><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="contact.html" class="active">Contact</a></nav>
+<h1>Contact Me</h1>
+<form>
+<fieldset><legend>Personal Information</legend>
+<label for="fullname">Full Name</label><input type="text" id="fullname" name="fullname" placeholder="Joseph Kimani" required>
+<label for="email">Email</label><input type="email" id="email" name="email" placeholder="you@example.com" required>
+<label for="phone">Phone</label><input type="tel" id="phone" name="phone" placeholder="+254 700 000000">
+<label for="subject">Subject</label><select id="subject" name="subject"><option value="">Choose a subject</option><option value="collab">Collaboration</option><option value="job">Job Opportunity</option><option value="feedback">Feedback</option></select>
+</fieldset>
+<fieldset><legend>Your Message</legend>
+<label for="message">Message (min 50 chars)</label><textarea id="message" name="message" placeholder="Write your message here..." required minlength="50" rows="5"></textarea>
+<label><input type="checkbox" name="newsletter"> Subscribe to my newsletter</label>
+</fieldset>
+<button type="submit">Send Message</button>
+</form>
+<h2>Find me</h2><p>Location: Nairobi, Kenya (EAT - UTC+3)</p><p><a href="https://github.com/Devkimani-wellington">GitHub</a> | <a href="mailto:kunguj800@gmail.com">kunguj800@gmail.com</a></p>
+</body></html>
